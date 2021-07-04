@@ -1,46 +1,118 @@
-body {
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+:root {
+  /* CSS HEX */
+  --cyber-grape: #704f82ff;
+  --black-bean: #471207ff;
+  --burnt-orange: #b8591cff;
+  --maximum-blue-purple: rgba(182, 159, 244, 0.4);
+  --gold-crayola: #e9c389ff;
+}
 
-h1 {
-    background-color: #281B2D;
-    color: #fff;
-    text-align: center;
-    font-size: 72px;
-    margin-top: 0;
-    padding: 25px 0;
+body {
+  background: var(--maximum-blue-purple);
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  margin: 0 0 3em 0;
+}
+
+header h1 {
+  background-color: var(--black-bean);
+  color: var(--gold-crayola);
+  text-align: center;
+  font-size: 72px;
+  margin-top: 0;
+  padding: 25px 0;
 }
 
 .subhead {
-    background-color: #281B2D;
-    color: #FCD801;
-    font-size: 48px;
-    padding: 20px;
-    border-bottom: 5px solid #00C54C;
+  background-color: var(--black-bean);
+  color: #fcd801;
+  font-size: 48px;
+  padding: 20px;
+  border-bottom: 5px solid var(--gold-crayola);
+  margin-bottom: 0.5em;
+  border-radius: 10px;
 }
 
-.white-text { color: #fff }
+.white-text {
+  color: #fff;
+}
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .columns {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
 }
 
-.main-content {
-    width: 65%;
-    margin-right: 5%;
+.columns .main-content {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+  background: var(--burnt-orange);
+  margin-right: 5%;
+  padding: 2em 1em;
+  border-radius: 10px;
 }
 
-.sidebar {
-    width: 30%;
+.columns .main-content img {
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
 }
 
-.col-right {
-    margin-left: 25px;
+.columns .main-content .col-right p {
+  font-size: 1em;
+  color: #fff;
 }
+
+.columns .main-content .col-right ul {
+  margin: 0.5em 0;
+  color: var(--black-bean);
+}
+
+.columns .sidebar {
+  border-radius: 10px;
+  background-color: var(--cyber-grape);
+  padding: 2em 1em;
+}
+
+.columns .sidebar p {
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.columns .sidebar p a {
+  text-decoration: none;
+  color: var(--gold-crayola);
+}
+
+.columns .sidebar p a:hover {
+  color: #fff;
+}
+
+.columns .sidebar ol {
+  margin-left: 1.5em;
+}
+
+.columns .sidebar ol li {
+  margin: 0.5em 0;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
