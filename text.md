@@ -1,4 +1,4 @@
-## The unordered list text: 
+## The unordered list text:
 
 dui ultricies integer
 eget amet consectetur
@@ -8,14 +8,13 @@ pellentesque pellentesque duis
 
 ---
 
-## The ordered list text: 
+## The ordered list text:
 
 Bearded Dragon
 Leopard Gecko
 Crested Gecko
 Blue-Tongue Skink
 Green Anole
-Argentine Black and White Tegu
 Uromastyx
 African Fat-Tailed Gecko
 Chinese Water Dragon
